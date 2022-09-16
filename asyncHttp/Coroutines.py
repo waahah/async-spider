@@ -3,7 +3,7 @@ import aiohttp
 import time
 
 """
-1.此文件是使用aiohttp基于acyncio的异步HTTP网络模块，支持非常高的并发量
+1.此文件是使用aiohttp基于acyncio的异步HTTP网络模块，非常适合高频率IO阻塞
 2.与request的同步请求做对比
 """
 
