@@ -16,6 +16,7 @@ def test(number):
         }
         #并发限制,避免网站被瞬间爬挂掉
         semaphore = asyncio.Semaphore(concurrency)
+        #使用信号量上下文对象控制进入的最大协程数量
         async with semaphore:
             #超时设置,响应超时则抛出TimeoutError异常,不再等待
             timeout = aiohttp.ClientTimeout(total=total)
