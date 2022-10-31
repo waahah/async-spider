@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/License-Apache2.0-brightgreen)
 ![License](https://img.shields.io/badge/Version-v0.1-yellow)
 
-抓包获取某手机app接口，爬取小姐姐高清壁纸
+抓包获取某应用接口，百度文库解析下载，爬取小姐姐高清壁纸
 
 ### prerequisite
 
