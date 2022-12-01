@@ -20,7 +20,7 @@
 ![](https://s2.loli.net/2022/11/26/5PtloE4L1dGfvwy.jpg)
 
 ### 下载地址
-> ##### [https://wwt.lanzouy.com/iorwI0gxiine (lanzouy.com)](https://wwt.lanzouy.com/iorwI0gxiine)
+> ##### [https://wwgc.lanzouy.com/iwdsd0hhsl8h (lanzouy.com)](https://wwgc.lanzouy.com/iwdsd0hhsl8h)
 
 #### 备用地址
-> ##### [https://pan.baidu.com/s/17LufRs13gVlHQCevZmZtQQ](https://pan.baidu.com/s/17LufRs13gVlHQCevZmZtQQ) 提取码：1234
+> ##### [https://pan.baidu.com/s/1GH0wRbI95Qnr3iriHupoKQ](https://pan.baidu.com/s/1GH0wRbI95Qnr3iriHupoKQ) 提取码：52pj
