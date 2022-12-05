@@ -1,9 +1,9 @@
-# app-wallpaper-spider
+# async-spider
 
 ![License](https://img.shields.io/badge/License-Apache2.0-brightgreen)
 ![License](https://img.shields.io/badge/Version-v0.1-yellow)
 
-知乎盐选会员下载，百度文库解析下载，爬取小姐姐高清壁纸
+Baidu Library Analysis and Download
 
 ### prerequisite
 
@@ -23,4 +23,4 @@ pip install -r requirements.txt
 
 ### Contributing
 
->[Github Issues](https://github.com/waahah/app-wallpaper-spider/issues)
+>[Github Issues](https://github.com/waahah/async-spider/issues)
