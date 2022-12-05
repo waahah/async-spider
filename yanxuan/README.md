@@ -29,4 +29,5 @@
 
 ### 江湖再见
 
-> ##### 由于有人利用内容进行盈利，倒卖的现象时有发生，功能已失效 谨此附上源代码仅供学习参考[https://github.com/waahah/async-spider/blob/main/yanxuan/yanxuan.py](https://github.com/waahah/async-spider/blob/main/yanxuan/yanxuan.py)
+> ##### 由于有人利用内容进行盈利，倒卖的现象时有发生，功能已失效 谨此附上源代码仅供学习参考
+> ##### *[https://github.com/waahah/async-spider/blob/main/yanxuan/yanxuan.py](https://github.com/waahah/async-spider/blob/main/yanxuan/yanxuan.py)*
