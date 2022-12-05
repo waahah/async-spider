@@ -58,6 +58,10 @@ def SSL_ignore():
 
 def mkdir():
     try:
+        """
+        解决打包后无法获取当前路径的问题
+        检查应用程序是作为脚本还是作为冻结的可执行程序运行
+        """
         if getattr(sys, 'frozen', False):
             route = os.path.dirname(sys.executable)
         elif __file__:
@@ -129,7 +133,7 @@ def requset_POST(link):
     head = get_header(link)
 
     # 请求对象的定制
-    obj_request = request.Request(url=base_url, data=new_data, headers=head)  # post请求data传参使用Request
+    obj_request = request.Request(url=base_url, data=new_data, headers=head)  # post请求传参使用Request
     return obj_request
 
 
@@ -140,7 +144,7 @@ def requset_GET(id):
     :return: object
     """
     if isinstance(id, int):
-        base_url = f"https://mfyx.top/archives/{id}"  # 19762
+        base_url = f"https://mfyx.top/archives/{id}"  
         head = get_header(id)
         methed = 'GET'
         obj_request = request.Request(url=base_url, headers=head)
@@ -156,7 +160,7 @@ def get_response(obj_request, ctx):
     """
     response = request.urlopen(obj_request, context=ctx)
     content = response.read().decode('utf-8')
-    print(content)
+    # print(content)
     return content
 
 
@@ -168,9 +172,8 @@ def import_img(pdf, i, x, tp):
     :param tp: str
     """
     # x = x.split('?')[0]
-    #print(f'正在导入第{i}张图片到PDF...')
     request.urlretrieve(url=x, filename=f'./Download/{str(i)}.{tp}')#
-    pdf.image(f'./Download/{str(i)}.{tp}', w=182, type=f'{tp}')  # 一个显式尺寸，另一个自动计算以保持原始比例
+    pdf.image(f'./Download/{str(i)}.{tp}', w=182, type=f'{tp}')  # 一个显式尺寸
     os.remove(f'./Download/{str(i)}.{tp}')
     pdf.ln(1.0)
 
@@ -257,7 +260,7 @@ def down_load(content, ctx):
         res = requset_GET(id)
         req = get_response(res, ctx)
         html_tree = etree.HTML(req)
-        # 获取相应的数据 xpath对象的返回值是一个列表类型
+        # 获取相应的数据
         article = html_tree.xpath("//div[@class='article']/div[@id='lightgallery']/p/text()|//div[@id='lightgallery']/p/img/@src")
         save_pdf(article,title)
     elif code is -1:
