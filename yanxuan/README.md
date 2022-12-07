@@ -30,5 +30,5 @@
 ### 江湖再见
 
 > ##### *由于有人利用内容进行盈利，倒卖的现象时有发生，功能已失效 谨此附上源代码仅供学习参考*
-> ##### *mfyx是采用Wordpress CMS和kratos主题建站的，使用PHP7+Nginx+Mysql+Bootstrap，也是对接现成的爬虫采集CMS，现在我也不会再新建一个站了，因为建了也会有人拿来盈利！！！*
+> ##### *请不要误会mfyx不是我建的站，它采用Wordpress CMS和kratos主题建站，使用PHP7+Nginx+Mysql+Bootstrap，对接的现成爬虫采集CMS，想建站的可以自行建站*
 > ##### *[https://github.com/waahah/async-spider/blob/main/yanxuan/yanxuan.py](https://github.com/waahah/async-spider/blob/main/yanxuan/yanxuan.py)*
